@@ -1,0 +1,41 @@
+name: bmi_app
+description: "BMI App - Flutter UI + Login + Google Sign-In"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons iOS style
+  cupertino_icons: ^1.0.8
+
+  # 🔐 Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # 💾 Lưu dữ liệu local
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.10+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lint code sạch
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # ── Fonts (nếu muốn UI xịn hơn) ──
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
