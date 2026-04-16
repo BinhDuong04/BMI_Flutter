@@ -46,6 +46,7 @@
 
 ### 1️⃣ Clone mã nguồn
 ```bash
+https://github.com/BinhDuong04/BMI_Flutter.git
 ```
 
 ### 2️⃣ Kiểm tra môi trường Flutter
