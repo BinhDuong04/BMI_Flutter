@@ -89,5 +89,4 @@ bmi-calculator-flutter/
 - Ứng dụng chỉ mang tính chất tham khảo. Kết quả BMI không thay thế chẩn đoán hoặc tư vấn y tế chuyên nghiệp.
 - Trước khi push code, hãy chạy flutter analyze và flutter format . để đảm bảo chuẩn code.
 - Mọi đóng góp (bug report, tính năng mới, cải tiến UI/UX) vui lòng tạo Issue hoặc gửi Pull Request.
-## 📄 License
-Dự án được phân phối dưới giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
+
