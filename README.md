@@ -72,6 +72,7 @@ flutter run
 ```
 
 📁 Cấu trúc thư mục chính
+```bash
 bmi-calculator-flutter/
 ├── android/          # Cấu hình native Android & Gradle
 ├── ios/              # Cấu hình native iOS (nếu build cho iOS)
@@ -83,4 +84,10 @@ bmi-calculator-flutter/
 ├── assets/           # Hình ảnh, icon, font tùy chỉnh
 ├── pubspec.yaml      # Khai báo dependencies, assets, metadata
 └── README.md         # Tài liệu hướng dẫn này
-
+```
+📝 Lưu ý & Đóng góp
+⚠️ Ứng dụng chỉ mang tính chất tham khảo. Kết quả BMI không thay thế chẩn đoán hoặc tư vấn y tế chuyên nghiệp.
+🔧 Trước khi push code, hãy chạy flutter analyze và flutter format . để đảm bảo chuẩn code.
+🤝 Mọi đóng góp (bug report, tính năng mới, cải tiến UI/UX) vui lòng tạo Issue hoặc gửi Pull Request.
+📄 License
+Dự án được phân phối dưới giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
