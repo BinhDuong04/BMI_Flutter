@@ -1,63 +1,85 @@
-📱 ỨNG DỤNG TÍNH CHỈ SỐ BMI
-📌 1. Giới thiệu đề tài
+# CHUYÊN ĐỀ 2
 
-Xây dựng ứng dụng di động giúp người dùng tính toán và đánh giá chỉ số BMI (Body Mass Index) nhằm hỗ trợ theo dõi và cải thiện sức khỏe cá nhân.
+## 👥 Thành viên nhóm
 
-👥 2. Thành viên nhóm
-👤 Dương Lý Bình
-MSSV: 20220704
-Lớp: DCCNTT13.10.4
-Vai trò: Trưởng nhóm
-👤 Hoàng Mậu Phong
-MSSV: 20220535
-Lớp: DCCNTT13.10.4
-🎯 3. Mục tiêu đề tài
+1. **Dương Lý Bình**  
+   - MSSV: 20220704  
+   - Lớp: DCCNTT13.10.4  
+   - Vai trò: Trưởng nhóm  
 
-Ứng dụng được xây dựng nhằm hỗ trợ người dùng:
+2. **Hoàng Mậu Phong**  
+   - MSSV: 20220535  
+   - Lớp: DCCNTT13.10.4  
 
-Tính toán chỉ số BMI
-Đánh giá tình trạng cơ thể:
-Gầy
-Bình thường
-Thừa cân
-Béo phì
-Theo dõi và cải thiện sức khỏe cá nhân
-🧠 4. Kiến thức sử dụng
-Lập trình ứng dụng di động với Flutter
-Ngôn ngữ Dart
-Thiết kế giao diện UI/UX cơ bản
-Quản lý trạng thái:
-setState
-Provider
-Áp dụng công thức tính BMI
-⚙️ 5. Công nghệ sử dụng
-Thành phần	Công nghệ sử dụng
-Frontend	Flutter
-Ngôn ngữ	Dart
-IDE	VS Code / Android Studio
-State Management	Provider
-Thiết kế UI	Material Design
-Thư viện hỗ trợ	image_picker, intl
-🚀 6. Chức năng chính
-Nhập chiều cao và cân nặng
-Tính toán chỉ số BMI
-Hiển thị kết quả
-Phân loại tình trạng sức khỏe
-Giao diện trực quan, dễ sử dụng
-🧪 7. Hướng dẫn cài đặt
-🔧 Bước 1: Cài đặt môi trường
-Cài đặt Flutter SDK
-Cài đặt:
-Visual Studio Code hoặc Android Studio
-Cài đặt Android Emulator hoặc sử dụng điện thoại thật
 
-👉 Kiểm tra môi trường:
+## Đề tài
+**Ứng dụng tính chỉ số BMI**
 
-flutter doctor
-📥 Bước 2: Clone project
-git clone https://github.com/ten-repo/bmi_app.git
-cd bmi_app
-📦 Bước 3: Cài đặt thư viện
+## 📖 Giới thiệu
+Ứng dụng **BMI Calculator** được phát triển bằng **Flutter**, giúp người dùng nhanh chóng tính toán và đánh giá chỉ số khối cơ thể (BMI) dựa trên chiều cao và cân nặng. Ứng dụng cung cấp giao diện trực quan, kết quả chính xác kèm theo phân loại tình trạng sức khỏe theo chuẩn WHO, phù hợp cho mục đích học tập, đồ án hoặc phát triển sản phẩm cá nhân.
+
+## ✨ Tính năng chính
+-  Nhập liệu chiều cao (cm) và cân nặng (kg) trực quan
+-  Tính BMI tự động theo công thức chuẩn: `BMI = Cân nặng(kg) / [Chiều cao(m)]²`
+-  Phân loại kết quả: Gầy, Bình thường, Thừa cân, Béo phì độ I/II/III
+-  Giao diện Material Design, responsive trên mọi kích thước màn hình
+-  Hỗ trợ chế độ sáng/tối (Light/Dark mode)
+-  Hiển thị gợi ý sức khỏe & khoảng cân nặng lý tưởng tương ứng
+
+## 🛠 Công nghệ & Môi trường phát triển
+| Thành phần | Phiên bản khuyến nghị |
+|------------|------------------------|
+| **Framework** | Flutter SDK ≥ 3.10 |
+| **Ngôn ngữ** | Dart ≥ 3.0 |
+| **IDE** | Android Studio (2023.1 Hedgehog trở lên) |
+| **JDK** | OpenJDK / JetBrains JDK 11 hoặc 17 |
+| **Android SDK** | API 33+ (Android 13) |
+| **Hệ điều hành** | Windows 10/11, macOS, Linux |
+
+## 📋 Yêu cầu hệ thống
+- Đã cài đặt và cấu hình **Flutter** & **Dart**
+- Đã cài đặt **Android Studio** với plugin `Flutter` và `Dart`
+- Đã thiết lập **Android SDK** và tạo Emulator (AVD) hoặc kết nối thiết bị thật
+- Kết nối Internet ổn định (cho lần chạy đầu tiên để tải dependencies)
+
+## 🚀 Hướng dẫn cài đặt & chạy ứng dụng
+
+### 1️⃣ Clone mã nguồn
+```bash
+```
+
+### 2️⃣ Kiểm tra môi trường Flutter
+Mở terminal tại thư mục dự án và chạy:
+bash
+1
+ Đảm bảo các mục Android toolchain và Connected device hiển thị dấu tích xanh. Nếu thiếu, làm theo hướng dẫn của flutter doctor để cài đặt/cấu hình.
+### 3️⃣ Mở dự án bằng Android Studio
+Mở Android Studio → File → Open → Chọn thư mục bmi-calculator-flutter
+Android Studio sẽ tự động nhận diện cấu hình Flutter. Đợi IDE sync Gradle và index dự án.
+### 4️⃣ Cài đặt dependencies
+Trong terminal của Android Studio (hoặc CMD/PowerShell tại thư mục gốc), chạy:
+```bash
 flutter pub get
-▶️ Bước 4: Chạy ứng dụng
+```
+
+### 5️⃣ Chạy ứng dụng
+Mở Device Manager trong Android Studio → Khởi động Emulator hoặc kết nối điện thoại thật (bật USB Debugging)
+Chọn thiết bị ở góc trên bên phải IDE
+Nhấn nút Run (▶️) hoặc dùng lệnh:
+```bash
 flutter run
+```
+
+📁 Cấu trúc thư mục chính
+bmi-calculator-flutter/
+├── android/          # Cấu hình native Android & Gradle
+├── ios/              # Cấu hình native iOS (nếu build cho iOS)
+├── lib/              # Mã nguồn Flutter chính
+│   ├── main.dart     # Điểm bắt đầu & cấu hình MaterialApp
+│   ├── screens/      # Các màn hình giao diện (Home, Result, History...)
+│   ├── widgets/      # Widget tái sử dụng (InputCard, Button, Gauge...)
+│   └── utils/        # Hàm tiện ích, công thức tính, phân loại BMI
+├── assets/           # Hình ảnh, icon, font tùy chỉnh
+├── pubspec.yaml      # Khai báo dependencies, assets, metadata
+└── README.md         # Tài liệu hướng dẫn này
+
